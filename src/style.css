@@ -81,3 +81,15 @@ img {
 .card-text {
   margin: -15px;
 }
+
+.footer {
+  text-align: center;
+}
+.githubLink {
+  font-size: 12px;
+  transition: all 200ms ease-in-out;
+  padding-bottom: 0 auto;
+}
+.githubLink.hover {
+  color: blue;
+}
