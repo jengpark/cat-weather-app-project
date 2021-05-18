@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  width: -webkit-max-content;
+  margin: auto;
+}
+
+.body {
+  background: linear-gradient(#e7efff, #b5cbff);
+  padding: 25px;
+  border: 3px solid hsl(220, 8%, 69%);
+  border-radius: 25px;
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 20px;
+  padding: 25px 0;
+  color: #939aa9;
+  text-transform: capitalize;
+}
+
+.daysoftheweek {
+  font-size: 18px;
+  color: hsl(220, 6%, 37%);
+}
+
+.current-temp {
+  font-size: 60px;
+  color: #787d8a;
+  font-weight: 400;
+  padding: 24px;
+  float: left;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: hsl(220, 6%, 37%);
+}
+
+.temp-conversion {
+  float: left;
+  line-height: 6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #787d8a;
+}
+
+.current-details {
+  padding: 15px 0;
+}
+
+img {
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 2px;
+  display: block;
+  padding: 20px 0;
+}
+
+.forecast {
+  padding: 15px 0;
+}
+.col-sm {
+  display: flex;
+}
+
+.card {
+  border-radius: 30px;
+  color: #787d8a;
+}
+
+.emoji {
+  font-size: 40px;
+}
+
+.card-text {
+  margin: -15px;
+}
