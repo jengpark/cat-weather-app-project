@@ -50,6 +50,13 @@
                 <hr/>
                 <div class='container'>
                     <div class="row weather-details">
+                        <div class='col temperature'>
+                            <div class="current-temp" id="current-temp"></div>
+                            <div class="temp-conversion">
+                                <a href="#" id="fahrenheitLink">°F</a>|
+                                <a href="#" id="celsiusLink">°C</a>
+                            </div>
+                        </div>
                         <div class='col current-details' id='current-details'>
                             <ul>
                                 <li>
@@ -74,13 +81,6 @@
                                     mph
                                 </li>
                             </ul>
-                        </div>
-                        <div class='col temperature'>
-                            <div class="current-temp" id="current-temp"></div>
-                            <div class="temp-conversion">
-                                <a href="#" id="fahrenheitLink">°F</a> |
-                                <a href="#" id="celsiusLink">°C</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,14 +164,9 @@
                 </div>
             </div>
         </div>
-        <footer>
-            This project was coded by 
-            <a href="https://github.com/jengpark" target="_blank" class="sourceLink">Jen Park</a>
-            and is
-            <a href="https://github.com/jengpark/cat-weather-app-project" target="_blank" class="sourceLink">open-sourced on Github</a>
-            and
-            <a href="https://jp-cat-weather-app.netlify.app/" target="_blank" class='sourceLink'>hosted on Netlify</a>
-        </footer>
+        <div class="footer">
+        <a href="https://github.com/jengpark/cat-weather-app-project" target="_blank" class="githubLink" id="githubLink">Github</a>
+        </div>
     </div>
 
     <script src="src/index.js"></script>
