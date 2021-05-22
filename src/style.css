@@ -5,37 +5,46 @@ body {
 }
 
 .body {
-  background: linear-gradient(#e7efff, #b5cbff);
-  padding: 25px;
+  background: linear-gradient(#f7faff, #b5cbff);
+  padding: 30px;
   border: 3px solid hsl(220, 8%, 69%);
   border-radius: 25px;
+}
+
+.cat-weather-app ul {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-weight: 600;
   line-height: 20px;
-  padding: 25px 0;
-  color: #939aa9;
+  font-size: 45px;
+  padding: 40px 0 15px;
+  color: #4e525a;
   text-transform: capitalize;
 }
 
 .daysoftheweek {
-  font-size: 18px;
-  color: hsl(220, 6%, 37%);
+  font-size: 16px;
+  margin-left: 0;
 }
 
 .current-temp {
-  font-size: 60px;
-  color: #787d8a;
-  font-weight: 400;
+  font-size: 58px;
+  color: #4e525a;
+  font-weight: 500;
   padding: 24px;
   float: left;
 }
 
 a {
-  padding: 5px;
   text-decoration: none;
-  color: hsl(220, 6%, 37%);
+  color: #4798c7;
+}
+
+a:hover {
+  color: #4e525a;
 }
 
 .temp-conversion {
@@ -44,22 +53,20 @@ a {
 }
 
 ul {
+  display: block;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #787d8a;
+  color: #939aa9;
 }
 
 .current-details {
-  padding: 15px 0;
+  padding: 24px 0;
 }
 
 img {
-  width: 450px;
   margin: 0 auto;
-  border-radius: 2px;
+  border-radius: 10px;
   display: block;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .forecast {
@@ -82,14 +89,8 @@ img {
   margin: -15px;
 }
 
-.footer {
+footer {
   text-align: center;
-}
-.githubLink {
   font-size: 12px;
-  transition: all 200ms ease-in-out;
-  padding-bottom: 0 auto;
-}
-.githubLink.hover {
-  color: blue;
+  color: #939aa9;
 }
