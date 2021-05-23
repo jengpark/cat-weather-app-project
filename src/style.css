@@ -5,15 +5,10 @@ body {
 }
 
 .body {
-  background: linear-gradient(#f7faff, #b5cbff);
+  background: linear-gradient(#b5cbff, #f7faff);
   padding: 30px;
   border: 3px solid hsl(220, 8%, 69%);
   border-radius: 25px;
-}
-
-.cat-weather-app ul {
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -31,10 +26,10 @@ h1 {
 }
 
 .current-temp {
-  font-size: 58px;
+  font-size: 65px;
   color: #4e525a;
   font-weight: 500;
-  padding: 24px;
+  padding: 10px 0 0 0;
   float: left;
 }
 
@@ -49,20 +44,29 @@ a:hover {
 
 .temp-conversion {
   float: left;
-  line-height: 6;
+  line-height: 4;
+}
+
+.temp-conversion .active {
+  color: #4e525a;
+  font-style: bold;
 }
 
 ul {
   display: block;
   list-style: none;
   color: #939aa9;
+  margin: 0;
+  padding: 0;
 }
 
 .current-details {
-  padding: 24px 0;
+  padding: 65px 25px 0 0;
+  float: right;
 }
 
-img {
+.catImages {
+  width: auto;
   margin: 0 auto;
   border-radius: 10px;
   display: block;
@@ -72,6 +76,7 @@ img {
 .forecast {
   padding: 15px 0;
 }
+
 .col-sm {
   display: flex;
 }

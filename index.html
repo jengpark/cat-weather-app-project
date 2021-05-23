@@ -17,147 +17,143 @@
 <body>
     <div class='body'>
         <div class='container'>
-            <div class='cat-weather-app'>
-                <form>
-                    <div class='row'>
-                        <div class='col-6'>
-                            <input type='search' placeholder="Type city here" autofocus='on' class="form-control" id='city-input'>
-                        </div>
-                        <div class='col-3'>
-                            <input type='submit' value="Search" class='form-control w-100 mb-3'>
-                        </div>
-                        <div class='col-3'>
-                            <button class='btn btn-primary mb-3 w-100' id='current-location-button'>
-                                Current
-                            </button>
-                        </div>
-                    </div>
-                </form>
-                <div>
 
+            <form>
+                <div class='row'>
+                    <div class='col-9'>
+                        <input type='search' placeholder="Type city here" autofocus='on' class="form-control" id='city-input'>
+                    </div>
+                    <div class='col-3'>
+                        <input type='submit' value="Search" class='form-control button w-100 mb-3'>
+                    </div>
                 </div>
-                <h1 id='cityName'>San Diego</h1>
-                <div class='daysoftheweek'>
-                <ul>
-                    <li class='day-time' id='day-time'>
-                        Wednesday 15:00
-                    </li>
-                    <li class='weather-description' id='weather-description'>
-                        Sunny
-                    </li>
-                </ul>
-                </div>
-                <hr/>
-                <div class='container'>
-                    <div class="row weather-details">
-                        <div class='col current-details' id='current-details'>
+            </form>
+            <div class="weatherDetails">
+                <div class="row">
+                    <div class="col-6">
+                        <h1 id="cityName">San Diego</h1>
+                        <div class='daysoftheweek'>
                             <ul>
                                 <li>
-                                    Feels-like: 
-                                    <span class='feels-like' id='feels-like'>                                    
-                                    17
+                                    <span class='day-time' id='day-time'>
+                                        Wednesday 15:00
+                                    </span>,
+                                    <span class='weather-description' id='weather-description'>
+                                        Sunny
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class='temperature-container'>
+                            <img src="" alt="clear" id="weather-icon" />
+                            <span class="current-temp" id="current-temp"></span>
+                            <span class="temp-conversion">
+                                <a href="#" id="fahrenheitLink" class="active">°F</a> |
+                                <a href="#" id="celsiusLink">°C</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class='current-details' id='current-details'>
+                            <ul>
+                                <li>
+                                    Feels-like:
+                                    <span class='feels-like' id='feels-like'>
+                                        17
                                     </span>
                                     °F
                                 </li>
-                                <li> 
-                                    Humidity: 
+                                <li>
+                                    Humidity:
                                     <span class='humidity' id="humidity">
                                         64
                                     </span>
-                                        %
+                                    %
                                 </li>
                                 <li>
-                                    Wind: 
-                                <span class='windspeed' id="windspeed">
-                                    8
-                                </span>
+                                    Wind:
+                                    <span class='windspeed' id="windspeed">
+                                        8
+                                    </span>
                                     mph
                                 </li>
                             </ul>
                         </div>
-                        <div class='col temperature'>
-                            <div class="current-temp" id="current-temp"></div>
-                            <div class="temp-conversion">
-                                <a href="#" id="fahrenheitLink">°F</a> |
-                                <a href="#" id="celsiusLink">°C</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/sunnycat.jpg" alt="clear" class="catImages" />
+        <div class="container">
+            <div class='forecast'>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card text-center" style="width:5rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Wed</h5>
+                                <p class="emoji">☀️</p>
+                                <p class="card-text">
+                                    <strong>
+                                        67°
+                                    </strong>
+                                    60°
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <hr/>
-                <img src="images/sunnycat.jpg" alt="sunny" class="sunnyCat" />
-                <div class="container">
-                    <div class='forecast'>
-                        <div class="row">
-                            <div class="col-sm">
-                                <div class="card text-center" style="width:5rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Wed</h5>
-                                        <p class="emoji">☀️</p>
-                                        <p class="card-text">
-                                            <strong>
-                                                67°
-                                            </strong>
-                                            60°
-                                        </p>
-                                    </div>
-                                </div>
+                    <div class="col-sm">
+                        <div class="card text-center" style="width:5rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Thu</h5>
+                                <p class="emoji">⛅</p>
+                                <p class="card-text">
+                                    <strong>
+                                        69°
+                                    </strong>
+                                    59°
+                                </p>
                             </div>
-                            <div class="col-sm">
-                                <div class="card text-center" style="width:5rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Thu</h5>
-                                        <p class="emoji">⛅</p>
-                                        <p class="card-text">
-                                            <strong>
-                                                69°
-                                            </strong>
-                                            59°
-                                        </p>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card text-center" style="width:5rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Fri</h5>
+                                <p class="emoji">🌧️</p>
+                                <p class="card-text">
+                                    <strong>
+                                        67°
+                                    </strong>
+                                    59°
+                                </p>
                             </div>
-                            <div class="col-sm">
-                                <div class="card text-center" style="width:5rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Fri</h5>
-                                        <p class="emoji">🌧️</p>
-                                        <p class="card-text">
-                                            <strong>
-                                                67°
-                                            </strong>
-                                            59°
-                                        </p>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card text-center" style="width:5rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Sat</h5>
+                                <p class="emoji">☀️</p>
+                                <p class="card-text">
+                                    <strong>
+                                        66°
+                                    </strong>
+                                    57°
+                                </p>
                             </div>
-                            <div class="col-sm">
-                                <div class="card text-center" style="width:5rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Sat</h5>
-                                        <p class="emoji">☀️</p>
-                                        <p class="card-text">
-                                            <strong>
-                                                66°
-                                            </strong>
-                                            57°
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="card text-center" style="width:5rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Sun</h5>
-                                        <p class="emoji">⛅</p>
-                                        <p class="card-text">
-                                            <strong>
-                                                63°
-                                            </strong>
-                                            57°
-                                        </p>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card text-center" style="width:5rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Sun</h5>
+                                <p class="emoji">⛅</p>
+                                <p class="card-text">
+                                    <strong>
+                                        63°
+                                    </strong>
+                                    57°
+                                </p>
                             </div>
                         </div>
                     </div>
