@@ -18,7 +18,6 @@ h1 {
   padding: 40px 0 15px;
   color: #4e525a;
   text-transform: capitalize;
-  text-size-adjust: auto;
 }
 
 .daysoftheweek {
@@ -71,27 +70,6 @@ ul {
   border-radius: 10px;
   display: block;
   padding: 10px 0;
-}
-
-.forecast {
-  padding: 15px 0;
-}
-
-.col-sm {
-  display: flex;
-}
-
-.card {
-  border-radius: 30px;
-  color: #787d8a;
-}
-
-.emoji {
-  font-size: 40px;
-}
-
-.card-text {
-  margin: -15px;
 }
 
 footer {
