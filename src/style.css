@@ -18,6 +18,7 @@ h1 {
   padding: 40px 0 15px;
   color: #4e525a;
   text-transform: capitalize;
+  text-size-adjust: auto;
 }
 
 .daysoftheweek {
@@ -66,7 +67,6 @@ ul {
 }
 
 .catImages {
-  width: auto;
   margin: 0 auto;
   border-radius: 10px;
   display: block;

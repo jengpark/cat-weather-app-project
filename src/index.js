@@ -78,3 +78,5 @@ celsiusLink.addEventListener("click", convertCelsiusLink);
 
 let fahrenheitLink = document.querySelector("#fahrenheitLink");
 fahrenheitLink.addEventListener("click", convertfahrenheitLink);
+
+document.getElementById('catImages').src = "images/sunnycat.jpg"
