@@ -67,9 +67,14 @@ ul {
 
 .catImages {
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
   padding: 10px 0;
+}
+
+.card {
+  border-radius: 30px;
+  color: #787d8a;
 }
 
 footer {
