@@ -5,7 +5,7 @@ body {
 }
 
 .body {
-  background: linear-gradient(#b5cbff, #f7faff);
+  background: linear-gradient(#b4d7f8, #c8e5e6);
   padding: 30px;
   border: 3px solid hsl(220, 8%, 69%);
   border-radius: 25px;
@@ -62,7 +62,7 @@ ul {
 
 .current-details {
   padding: 65px 25px 0 0;
-  float: right;
+  float: center;
 }
 
 .catImages {
@@ -75,10 +75,16 @@ ul {
 .card {
   border-radius: 30px;
   color: #787d8a;
+  background: #e3e4e0;
+}
+
+.row {
+  box-sizing: unset;
 }
 
 footer {
   text-align: center;
   font-size: 12px;
   color: #939aa9;
+  padding: 5px 0 0 0;
 }
