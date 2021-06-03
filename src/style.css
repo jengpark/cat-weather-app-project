@@ -5,7 +5,7 @@ body {
 }
 
 .body {
-  background: linear-gradient(#c2d3ff, #d2d6e0);
+  background: linear-gradient(#c8a2b7, #82bfd4, #d2d6e0);
   padding: 30px;
   border: 3px solid hsl(220, 8%, 69%);
   border-radius: 25px;
@@ -55,7 +55,7 @@ a:hover {
 ul {
   display: block;
   list-style: none;
-  color: #939aa9;
+  color: #676d7a;
   margin: 0;
   padding: 0;
 }
@@ -75,7 +75,7 @@ ul {
 .card {
   border-radius: 30px;
   color: #787d8a;
-  background: #fae9b9;
+  background: #f7d5ca;
 }
 
 .row {
@@ -85,6 +85,6 @@ ul {
 footer {
   text-align: center;
   font-size: 12px;
-  color: #939aa9;
+  color: #676d7a;
   padding: 5px 0 0 0;
 }
