@@ -5,7 +5,7 @@ body {
 }
 
 .body {
-  background: linear-gradient(#b4d7f8, #c8e5e6);
+  background: linear-gradient(#c2d3ff, #d2d6e0);
   padding: 30px;
   border: 3px solid hsl(220, 8%, 69%);
   border-radius: 25px;
@@ -75,7 +75,7 @@ ul {
 .card {
   border-radius: 30px;
   color: #787d8a;
-  background: #e3e4e0;
+  background: #fae9b9;
 }
 
 .row {
